@@ -1,3 +1,28 @@
 body {
-  font-size: 0.4em;
+  font-size: 0.2em;
 }
+
+.reveal section img.screenshot {
+  max-width: 200px;
+  display: inline-block;
+  margin: 0px;
+  vertical-align: top;
+}
+
+.reveal section .smalltext {
+  font-size: 0.8em;
+}
+
+.reveal section .img_cap {
+  width: 200px;
+  font-size: 0.6em;
+  display: inline-block;
+  margin-left: 20px;
+  text-align: left;
+}
+.reveal section .img_cap.wide {
+  width: 500px;
+}
+
+.reveal section .green {color: #01DF01; font-weight: bold;}
+.reveal section .red {color: red; font-weight: bold;}
