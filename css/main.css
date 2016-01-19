@@ -26,3 +26,17 @@ body {
 
 .reveal section .green {color: #01DF01; font-weight: bold;}
 .reveal section .red {color: red; font-weight: bold;}
+
+.reveal section .action_link {
+  position: absolute;
+  bottom: -20px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+.reveal section .down_arrow {
+  margin: 0px 20px;
+}
+
+.reveal section .actions {
+ font-size: 0.8em;
+}
