@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>BI: Analizando gameplay en TCK desde el punto de vista de las mecanicas "Anti-fun".</title>
+  <title>BI: Analizando gameplay en TCK desde el punto de vista de las mecánicas "Anti-fun".</title>
   <link rel="stylesheet" href="./css/reveal.css">
   <link rel="stylesheet" href="./css/theme/black.css" id="theme">
   <link rel="stylesheet" href="./css/main.css">
@@ -22,47 +22,47 @@
       <!-- Each section element contains an individual slide -->
       <section>
         <h1>BI - Report: </h1>
-        <p>Analizando gameplay en TCK desde el punto de vista de las mecanicas "Anti-fun".</p>
+        <p>Analizando gameplay en TCK desde el punto de vista de las mecánicas "Anti-fun".</p>
       </section>
 
       <section id="show-a-link">
-        <h1>Mecanicas Anti-Fun</h1>
-        <p>Anti-fun mechanics (o Game Design Anti-Patterns) es un concepto del mundo del Game Design para describir mecanicas de gameplay que funcionan correctamente de acuerdo al spec pero una vez implementadas generan mas descontento y enojo que diversion y placer.</p>
+        <h1>Mecánicas Anti-Fun</h1>
+        <p>Anti-fun mechanics (o Game Design Anti-Patterns) es un concepto del mundo del Game Design para describir mecánicas de gameplay que funcionan correctamente de acuerdo al spec pero una vez implementadas generan mas descontento y enojo que diversión y placer.</p>
         <p> Esto a su vez causa un loop de feedback emocional negativo y el posterior efecto conocido como "tilting" en el mundo del poker:<br>
-        [...] => enojo => desconcentracion => mala eleccion => enojo => [...]</p>
-        <p>Nuestro objetivo es reducir al minimo estas interacciones que generan efectos secundarios negativos.</p>
+        [...] => enojo => desconcentración => mala elección => enojo => [...]</p>
+        <p>Nuestro objetivo es reducir al mínimo estas interacciones que generan efectos secundarios negativos.</p>
       </section>
       <section>
-        <h1>Mecanicas Anti-Fun</h1>
-        <p>El concepto se popularizo a partir de una discusion abierta entre Zileas (VP de Game Design de Riot Games) y la comunidad del LoL.</p>
-        <p>Zileas mantiene una <a href="http://forums.na.leagueoflegends.com/board/showthread.php?t=293417">lista actualizada</a> describiendo varios tipos de estas mecanicas, muchas de las cuales no nos competen por el tipo de juego.</p>
-        <p>Vamos a enfocarnos en ciertos aspectos de gameplay de TCK teniendo en cuenta algunas de estas mecanicas.</p>
-        <p>Veamos primero las mecanicas que nos competen...</p>
+        <h1>Mecánicas Anti-Fun</h1>
+        <p>El concepto se popularizo a partir de una discusión abierta entre Zileas (VP de Game Design de Riot Games) y la comunidad del LoL.</p>
+        <p>Zileas mantiene una <a href="http://forums.na.leagueoflegends.com/board/showthread.php?t=293417">lista actualizada</a> describiendo varios tipos de estas mecánicas, muchas de las cuales no nos competen por el tipo de juego.</p>
+        <p>Vamos a enfocarnos en ciertos aspectos de gameplay de TCK teniendo en cuenta algunas de estas mecánicas.</p>
+        <p>Veamos primero las mecánicas que nos competen...</p>
       </section>
       <section>
-        <h5>Mecanicas Anti-Fun</h5>
+        <h5>Mecánicas Anti-Fun</h5>
         <h1>False choice: Deceptive Wrong Choice</h1>
         <p>"...when you present the player with one or more choices that appear to be valid, but one of the choices is just flat wrong."</p>
-        <p>Presentar al usuario lo que aparenta ser una eleccion valida, pero en la cual una de las opciones es incorrecta o simplemente inutil en el contexto.</p>
+        <p>Presentar al usuario lo que aparenta ser una elección valida, pero en la cual una de las opciones es incorrecta o simplemente inútil en el contexto.</p>
         <p><br></p>
         <h1>False choice: Ineffective Choice</h1>
         <p>"...when you give what appears to be an interesting choice that is then completely unrewarding, or ineffective at the promised action."</p>
-        <p>Mostrar al usuario lo que a priori parece una eleccion interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
+        <p>Mostrar al usuario lo que a priori parece una elección interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
       </section>
 
       <section>
-        <h5>Mecanicas Anti-Fun</h5>
+        <h5>Mecánicas Anti-Fun</h5>
         <h1>Non-Reliability</h1>
         <p>"Skills are tools. Players count on them to do a job. ..."</p>
         <p>Cuando le damos una herramienta al usuario con un fin determinado, y luego resulta que esa herramienta no logra satisfacer el rol prometido o solo lo logra en determinadas situaciones. Le damos una herramienta en la que no puede confiar.</p>
       </section>
 
       <section>
-        <h5>Mecanicas Anti-Fun</h5>
+        <h5>Mecánicas Anti-Fun</h5>
         <h1>Fun Fails to Exceed Anti-Fun</h1>
         <p>"..the negative experience your opponents feel when you do something (they have no control over) that prevents them from 'playing their game', doing activities they consider fun, or even answering back."</p>
-        <p>Cuando la experiencia negativa generada por las acciones (unilaterales o no) del adversario es superior a la experiencia positiva genereda por las acciones propias.</p>
-        <p>El ejemplo mas clasico de esta situacion es el de un adversario realizando una accion sobre la cual no podemos intervenir o siquieria responder, y la sensacion de impotencia e injusticia que eso conlleva.</p>
+        <p>Cuando la experiencia negativa generada por las acciones (unilaterales o no) del adversario es superior a la experiencia positiva generada por las acciones propias.</p>
+        <p>El ejemplo mas clásico de esta situación es el de un adversario realizando una acción sobre la cual no podemos intervenir o siquiera responder, y la sensación de impotencia e injusticia que eso conlleva.</p>
       </section>
 
 
@@ -73,20 +73,20 @@
       <!-- FALSE CHOICE: DECEPTIVE WRONG CHOICE -->
       <section>
         <section>
-          <h5>Mecanicas Anti-Fun</h5>
+          <h5>Mecánicas Anti-Fun</h5>
           <h3>False choice: Deceptive Wrong Choice</h3>
-          <p class="smalltext">Presentar al usuario lo que aparenta ser una eleccion valida, pero en la cual una de las opciones es incorrecta o simplemente inutil en el contexto.</p>
+          <p class="smalltext">Presentar al usuario lo que aparenta ser una elección valida, pero en la cual una de las opciones es incorrecta o simplemente inútil en el contexto.</p>
 
           <img class="screenshot" src="img/Screenshot_2016-01-15-16-37-57.png">
           <div class="img_cap wide">
             <h5>Bomb & Double Chance</h5>
-            <p>Prob de elegir (ciegamente) la opcion correcta:</p>
+            <p>Probabilidad de elegir (ciegamente) la opción correcta:</p>
             <p><strong>Bomb:</strong> <span class="green">50%</span> </p>
-            <p><strong>Double chance:</strong> <br>25% primer intento,<br> 33% segundo intento; <br> => <span class="red">33%</span> como maximo</p>
+            <p><strong>Double chance:</strong> <br>25% primer intento,<br> 33% segundo intento; <br> => <span class="red">33%</span> como máximo</p>
 
-            <p>Si no sabemos nada de la pregunta ni sospechamos cual respuesta puede ser la correcta, <strong>elegir Double Chance siempre esta mal</strong> (estadisticamente). </p>
+            <p>Si no sabemos nada de la pregunta ni sospechamos cual respuesta puede ser la correcta, <strong>elegir Double Chance siempre esta mal</strong> (estadísticamente). </p>
 
-            <p>En este caso, la sensacion de malestar es diferida: se da en el momento en que el usuario identifica esta situacion y piensa hacia atras todas las veces que gasto mal sus monedas. Esa sensacion puede ser recurrente y sostenida en el tiempo: cada vez que necesite usar monedas y tenga fondos insuficientes va a recordar su error inicial (como en la vida cuando tomamos una mala decision y luego nos reprochamos durante meses aunque no podamos cambiar el pasado).</p>
+            <p>En este caso, la sensación de malestar es diferida: se da en el momento en que el usuario identifica esta situación y piensa hacia atrás todas las veces que gasto mal sus monedas. Esa sensación puede ser recurrente y sostenida en el tiempo: cada vez que necesite usar monedas y tenga fondos insuficientes va a recordar su error inicial (como en la vida cuando tomamos una mala decisión y luego nos reprochamos durante meses aunque no podamos cambiar el pasado).</p>
 
             <div class="action_link">
               <span class="down_arrow">&#9660;</span>
@@ -101,8 +101,8 @@
           <div class="actions">
             <h5>Double Chance</h5>
             <p>1. No hacer nada. Existe el contra-argumento que dice que hay un lugar para Double Chance, cuando el usuario sospecha cual puede ser la respuesta correcta o esta indeciso entre dos (es necesario evaluar para cada caso en particular si en alguna de estas instancias Double Chance realmente tiene mas valor que Bomb).</p>
-            <p>2. Eliminar Double Chance. Si nos alineamos con el objetivo de intentar generar solo respuestas emocionales positivas, no hay necesidad de conservar Double Chance. Tres power ups que generan buena respuesta emocional, son mejores que 4 donde uno genera efectos secundarios negativos. Esta solucion es relativamente, de facil implementacion.</p>
-            <p>3. Reemplazar por un nuevo power up. Requeriria minimamente un tiempo de analisis y planeamiento, con una complejidad de implementacion de acuerdo a los requerimientos especificos del nuevo power up, con lo cual se vuelve una tarea dificil de estimar.</p>
+            <p>2. Eliminar Double Chance. Si nos alineamos con el objetivo de intentar generar solo respuestas emocionales positivas, no hay necesidad de conservar Double Chance. Tres power ups que generan buena respuesta emocional, son mejores que 4 donde uno genera efectos secundarios negativos. Esta solución es relativamente, de fácil implementación.</p>
+            <p>3. Reemplazar por un nuevo power up. Requeriría mínimamente un tiempo de análisis y planeamiento, con una complejidad de implementación de acuerdo a los requerimientos específicos del nuevo power up, con lo cual se vuelve una tarea difícil de estimar.</p>
           </div>
         </section>
       </section>
@@ -110,16 +110,16 @@
       <!-- FALSE CHOICE: INEFFECTIVE CHOICE 1/3 -->
       <section>
         <section>
-          <h5>Mecanicas Anti-Fun</h5>
+          <h5>Mecánicas Anti-Fun</h5>
           <h3>False choice: Ineffective Choice</h3>
-          <p class="smalltext">Mostrar al usuario lo que a priori parece una eleccion interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
+          <p class="smalltext">Mostrar al usuario lo que a priori parece una elección interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
 
           <img class="screenshot" src="img/Screenshot_2016-01-15-19-20-29.png">
           <img class="screenshot" src="img/Screenshot_2016-01-16-18-04-35.png">
           <div class="img_cap">
             <h5>Tina & Albert</h5>
-            <p>Tina y Albert son los dos sospechosos "accidentales" de esta mecanica.</p>
-            <p>La palabra clave es "accidental", ya que Tina y Albert presentan un problema solo en una ocasion en particular: cuando el flow del gameplay es interrumpido por una respuesta incorrecta y el usuario pierde (se olvida) el ultimo estado del mapa.</p>
+            <p>Tina y Albert son los dos sospechosos "accidentales" de esta mecánica.</p>
+            <p>La palabra clave es "accidental", ya que Tina y Albert presentan un problema solo en una ocasión en particular: cuando el flow del gameplay es interrumpido por una respuesta incorrecta y el usuario pierde (se olvida) el ultimo estado del mapa.</p>
             <p>Ya que el mapa es entonces la causa, veamos primero su caso puntual para luego regresar a Tina y Albert....</p>
 
             <div class="action_link">
@@ -134,8 +134,8 @@
           <h3>False choice: Ineffective Choice</h3>
           <div class="actions">
             <h5>Tina & Albert</h5>
-            <p>El problema aqui es externo: el mapa.</p>
-            <p>Si el mapa recibe mejoras, Tina y Albert no necesitan modificacion.</p>
+            <p>El problema aquí es externo: el mapa.</p>
+            <p>Si el mapa recibe mejoras, Tina y Albert no necesitan modificación.</p>
           </div>
         </section>
       </section>
@@ -143,7 +143,7 @@
       <!-- NON RELIABILITY -->
       <section>
         <section>
-          <h5>Mecanicas Anti-Fun</h5>
+          <h5>Mecánicas Anti-Fun</h5>
           <h3>Non-reliability</h3>
           <p class="smalltext">Cuando le damos una herramienta al usuario con un fin determinado, y luego resulta que esa herramienta no logra satisfacer el rol prometido o solo lo logra en determinadas situaciones. Le damos una herramienta en la que no puede confiar.</p>
 
@@ -151,10 +151,10 @@
           <div class="img_cap wide">
             <h5>El Mapa</h5>
             <p>El mapa en TCK introduce un cambio importante respecto a Preguntados: la idea de una posible estrategia.</p>
-            <p>Si bien la eleccion de caja y sus resultados siguen siendo casi exclusivamente una cuestion de RNG, el mapa pasa a ser ahora una representacion del estado de la partida y un recuento del ida y vuelta de ambos participantes.</p>
-            <p>Tina y Albert a su vez, representan para el jugador una oportunidad estrategica de dar un gran salto hacia adelante y acercarse a la victoria.</p>
-            <p>Dicho esto, sabemos que ante una respuesta incorrecta hay una interrupcion completa del flow de gameplay. Nuestro problema se evidencia en el retorno a la partida: el usuario no tiene forma de decodificar el estado actual en base al mapa, repasar los ultimos movimientos ni continuar su estrategia previa (a menos que recuerde de memoria los ultimos movimientos de ambos!).</p>
-            <p>El mapa como herramienta estrategica se convierte entonces en un factor en el que no se puede confiar.</p>
+            <p>Si bien la elección de caja y sus resultados siguen siendo casi exclusivamente una cuestión de RNG, el mapa pasa a ser ahora una representación del estado de la partida y un recuento del ida y vuelta de ambos participantes.</p>
+            <p>Tina y Albert a su vez, representan para el jugador una oportunidad estratégica de dar un gran salto hacia adelante y acercarse a la victoria.</p>
+            <p>Dicho esto, sabemos que ante una respuesta incorrecta hay una interrupción completa del flow de gameplay. Nuestro problema se evidencia en el retorno a la partida: el usuario no tiene forma de decodificar el estado actual en base al mapa, repasar los últimos movimientos ni continuar su estrategia previa (a menos que recuerde de memoria los últimos movimientos de ambos!).</p>
+            <p>El mapa como herramienta estratégica se convierte entonces en un factor en el que no se puede confiar.</p>
             <p>Lo cual nos lleva nuevamente a Tina y Albert...</p>
 
             <div class="action_link">
@@ -169,21 +169,21 @@
           <h3>Non-reliability</h3>
           <div class="actions">
             <h5>El mapa</h5>
-            <p>Actualmente, es dificil recordar el estado de la partida y dificil distinguir entre las partidas. Las acciones para mejorar el mapa implican ayudar al usuario a recuperar/recordar el estado de las partidas activas, para que el mapa no genere problemas en cascada en otras features (Tina/Albert), y para lograr que la idea de usar el mapa estrategicamente sea una realidad.</p>
-            <p>1. Crear un nuevo sistema de diseno para el mapa, para simplificar el esfuerzo de memoria del usuario: <br>
-            + Usar el background para establecer tres/cinco "mundos" tematicos (ej: selva, castillo, oceano, etc). Cada partida simultanea de un usuario utiliza un "mundo" distinto.<br>
+            <p>Actualmente, es difícil recordar el estado de la partida y difícil distinguir entre las partidas. Las acciones para mejorar el mapa implican ayudar al usuario a recuperar/recordar el estado de las partidas activas, para que el mapa no genere problemas en cascada en otras features (Tina/Albert), y para lograr que la idea de usar el mapa estratégicamente sea una realidad.</p>
+            <p>1. Crear un nuevo sistema de diseño para el mapa, para simplificar el esfuerzo de memoria del usuario: <br>
+            + Usar el background para establecer tres/cinco "mundos" temáticos (ej: selva, castillo, océano, etc). Cada partida simultanea de un usuario utiliza un "mundo" distinto.<br>
             + Usar las cajas para para establecer el progreso dentro de la partida desde la 1er corona a la 5ta (ej: madera, bronce, plata, oro, platino; esta escala es ademas un standard en la industria para mostrar progreso).
-            Estos cambios combinados permiten que el cerebro identifique y memorice de manera mucho simple no solo la partida actual sino tambien su estado y previo desarrollo. Aunque no solucionan por completo el problema, su implementacion es mas simple que la segunda opcion.</p>
-            <p>2. Agregar en la pantalla del mapa un boton para acceder al historial de la partida o minimamente ver la ultima movida. Esta solucion implica un grado de complejidad alto para la implementacion, mas aun si no estamos conservando actualmente esta informacion.</p>
+            Estos cambios combinados permiten que el cerebro identifique y memorice de manera mucho simple no solo la partida actual sino también su estado y previo desarrollo. Aunque no solucionan por completo el problema, su implementación es mas simple que la segunda opción.</p>
+            <p>2. Agregar en la pantalla del mapa un botón para acceder al historial de la partida o mínimamente ver la ultima movida. Esta solución implica un grado de complejidad alto para la implementación, mas aun si no estamos conservando actualmente esta información.</p>
           </div>
         </section>
       </section>
 
       <!-- FALSE CHOICE: INEFFECTIVE CHOICE 2/3 -->
       <section>
-        <h5>Mecanicas Anti-Fun</h5>
+        <h5>Mecánicas Anti-Fun</h5>
         <h3>False choice: Ineffective Choice</h3>
-        <p class="smalltext">Mostrar al usuario lo que a priori parece una eleccion interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
+        <p class="smalltext">Mostrar al usuario lo que a priori parece una elección interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
 
         <img class="screenshot" src="img/Screenshot_2016-01-15-19-20-29.png">
         <img class="screenshot" src="img/Screenshot_2016-01-15-19-20-46.png">
@@ -191,27 +191,27 @@
         <div class="img_cap">
           <h5>Tina & Albert</h5>
           <p>Veamos el rollercoaster emocional de este caso:</p>
-          <p>1. Seleccione una caja y abri a Tina, lo cual me pone contento: si tengo suerte (%50) y contesto bien tengo una corona!</p>
+          <p>1. Seleccioné una caja y abrí a Tina, lo cual me pone contento: si tengo suerte (%50) y contesto bien tengo una corona!</p>
           <p>2. Toco madera e invoco a la pachamama.</p>
-          <p>3. La suerte realmente no esta conmigo... Tome una mala decision y ahora me enfrento a Melissa. Intento sobrevivir pero en la primera pregunta me equivoco... Estoy enojado con mi desempeño y no tengo mas consuelo que esperar...</p>
+          <p>3. La suerte realmente no esta conmigo... Tome una mala decisión y ahora me enfrento a Melissa. Intento sobrevivir pero en la primera pregunta me equivoco... Estoy enojado con mi desempeño y no tengo mas consuelo que esperar...</p>
         </div>
       </section>
 
       <!-- FALSE CHOICE: INEFFECTIVE CHOICE 3/3 -->
       <section>
         <section>
-          <h5>Mecanicas Anti-Fun</h5>
+          <h5>Mecánicas Anti-Fun</h5>
           <h3>False choice: Ineffective Choice</h3>
-          <p class="smalltext">Mostrar al usuario lo que a priori parece una eleccion interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
+          <p class="smalltext">Mostrar al usuario lo que a priori parece una elección interesante, pero luego resulta completamente inefectiva, intrascendente o simplemente no gratificante.</p>
 
           <img class="screenshot" src="img/Screenshot_2016-01-15-19-22-31.png">
           <div class="img_cap wide">
-            <p style="margin-top: 0px;">...dos dias mas tarde:</p>
-            <p>4. Es mi turno ! Hmmmm......??? Que paso aca? Recuerdo fugazmente haber visto a Tina la ultima vez que jugue. Conteste bien aquel entonces?? Era esta partida o me estoy confundiendo con otra? Era este mapa y es la Tina que estoy viendo, o quizas fue en la corona anterior y esta Tina la abrio mi adversario??</p>
-            <p>En definitiva, perdi (olvide) el estado actual de la partida y no tengo como recuperarlo.</p>
-            <p>Si habia interactuado con Tina o Albert, elegido la caja incorrecta, fallado y mi adversario a su vez fallo, ya no tengo forma de capitalizar sobre su error (no capitalizar el mio, para lo cual el tampoco tuvo informacion disponible !). Ya no recuerdo el insight (ventaja) que Tina/Albert me habian dado en primer lugar.</p>
-            <p>La sensacion es la de la oportunidad perdida, y esta acentuada por el enojo propio de a) equivocarse en varias oportunidas, b) olvidar informacion importante y c) la impotencia de no poder capitalizar sobre errores ajenos.</p>
-            <p>La eleccion que se me ofrecio hace dos dias (via Tina/Albert) no solo se ha vuelto completamente inefectiva, sino que incluso ha generado nuevas emociones negativas.</p>
+            <p style="margin-top: 0px;">...dos días mas tarde:</p>
+            <p>4. Es mi turno ! Hmmmm......??? Que paso acá? Recuerdo fugazmente haber visto a Tina la ultima vez que jugué. Conteste bien aquel entonces?? Era esta partida o me estoy confundiendo con otra? Era este mapa y es la Tina que estoy viendo, o quizás fue en la corona anterior y esta Tina la abrió mi adversario??</p>
+            <p>En definitiva, perdí (olvide) el estado actual de la partida y no tengo como recuperarlo.</p>
+            <p>Si había interactuado con Tina o Albert, elegido la caja incorrecta, fallado y mi adversario a su vez fallo, ya no tengo forma de capitalizar sobre su error (no capitalizar el mio, para lo cual el tampoco tuvo información disponible !). Ya no recuerdo el insight (ventaja) que Tina/Albert me habían dado en primer lugar.</p>
+            <p>La sensación es la de la oportunidad perdida, y esta acentuada por el enojo propio de a) equivocarse en varias oportunidades, b) olvidar información importante y c) la impotencia de no poder capitalizar sobre errores ajenos.</p>
+            <p>La elección que se me ofreció hace dos días (vía Tina/Albert) no solo se ha vuelto completamente inefectiva, sino que incluso ha generado nuevas emociones negativas.</p>
 
             <div class="action_link">
               <span class="down_arrow">&#9660;</span>
@@ -226,8 +226,8 @@
           <h3>False choice: Ineffective Choice</h3>
           <div class="actions">
             <h5>Tina & Albert</h5>
-            <p>El problema aqui es externo: el mapa.</p>
-            <p>Si el mapa recibe mejoras, Tina y Albert no necesitan modificacion.</p>
+            <p>El problema aquí es externo: el mapa.</p>
+            <p>Si el mapa recibe mejoras, Tina y Albert no necesitan modificación.</p>
           </div>
         </section>
       </section>
@@ -236,17 +236,17 @@
       <!-- FUN FAILS TO EXCEED ANTI FUN -->
       <section>
         <section>
-        <h5>Mecanicas Anti-Fun</h5>
+        <h5>Mecánicas Anti-Fun</h5>
         <h3>Fun Fails to Exceed Anti-Fun</h3>
         <p class="smalltext">Cuando la experiencia negativa generada por las acciones (unilaterales o no) del adversario es superior a la experiencia positiva genereda por las acciones propias.</p>
 
         <img class="screenshot" src="img/Screenshot_2016-01-16-18-06-23.png">
         <div class="img_cap wide">
           <h5>Stephang</h5>
-          <p style="margin-top: 0px;">Esta idea traza un paralelismo con el concepto de <a href="https://en.wikipedia.org/wiki/Loss_aversion">Loss Aversion</a>; el cual esta extensivamente estudidado en los campos de Economia, Psicologia, Teoria de la Decision y Teoria del Juego. El mismo dice que una persona que pierde 100$ va a perder mas satisfaccion que la que va a ganar una persona que gana 100$ inesperadamente. La mayoria de los estudios situan ese diferencial en 2x.</p>
-          <p>Si extrapolamos a terminos que nos competen: perder una corona genera un malestar 2x superior al bienestar generado por ganar una corona.</p>
-          <p>De todas formas, tanto en Preguntados como en TCK existe un factor atenuante a la hora de considerar la mecanica: las partidas son jugadas en forma asincronica, lo cual nos resguarda (como victimas) de tener que presenciar impotentes como nos quitan lo ganado. A veces incluso, al regresar a una partida, ni nos damos cuenta que perdimos una corona (lo cual implica otro problema en cuanto a lo comunicacional, pero eso es otro tema).</p>
-          <p>Realisticamente, y ya que el net value de esta mecanica es en teoria 2x negativo, no existe necesidad de incluir este tipo de situaciones en juegos cuyo core gameplay no gira en torno al concepto de <a href="https://en.wikipedia.org/wiki/Zero-sum_game">Zero-sum game</a> (ej: poker).</p>
+          <p style="margin-top: 0px;">Esta idea traza un paralelismo con el concepto de <a href="https://en.wikipedia.org/wiki/Loss_aversion">Loss Aversion</a>; el cual esta extensivamente estudiado en los campos de Economía, Psicología, Teoría de la Decisión y Teoría del Juego. El mismo dice que una persona que pierde 100$ va a perder mas satisfacción que la que va a ganar una persona que gana 100$ inesperadamente. La mayoría de los estudios sitúan ese diferencial en 2x.</p>
+          <p>Si extrapolamos a términos que nos competen: perder una corona genera un malestar 2x superior al bienestar generado por ganar una corona.</p>
+          <p>De todas formas, tanto en Preguntados como en TCK existe un factor atenuante a la hora de considerar la mecánica: las partidas son jugadas en forma asincrónica, lo cual nos resguarda (como victimas) de tener que presenciar impotentes como nos quitan lo ganado. A veces incluso, al regresar a una partida, ni nos damos cuenta que perdimos una corona (lo cual implica otro problema en cuanto a lo comunicacional, pero eso es otro tema).</p>
+          <p>Realisticamente, y ya que el net value de esta mecánica es en teoría 2x negativo, no existe necesidad de incluir este tipo de situaciones en juegos cuyo core gameplay no gira en torno al concepto de <a href="https://en.wikipedia.org/wiki/Zero-sum_game">Zero-sum game</a> (ej: poker).</p>
 
           <div class="action_link">
             <span class="down_arrow">&#9660;</span>
@@ -260,27 +260,27 @@
           <h3>Fun Fails to Exceed Anti-Fun</h3>
           <div class="actions">
             <h5>Stephang</h5>
-            <p>1. Stephang resulta en un cambio neto de +1 C. al jugador activo y -1 al pasivo. Otra forma de expresarlo, pero sin generar respuesta emocional negativa en la persona pasiva (e incapaz de actuar) es simplemente cambiar a: +2 coronas para el jugador activo. Esto tambien elimina un problema que no repasamos respecto a usar Stephang cuando el jugador opuesto tiene 0 coronas y no hay que robar.</p>
-            <p>2. Cambiar la mecanica a un modo "desafio" para darle oportunidad al adversario de defenderse: si contesto bien la/s pregunta de Stephang, ahora mi adversario debe hacer lo mismo o perder la corona. El robo de corona se efectua solo si el adversario falla en su oportunidad de defensa.</p>
+            <p>1. Stephang resulta en un cambio neto de +1 C. al jugador activo y -1 al pasivo. Otra forma de expresarlo, pero sin generar respuesta emocional negativa en la persona pasiva (e incapaz de actuar) es simplemente cambiar a: +2 coronas para el jugador activo. Esto también elimina un problema que no repasamos respecto a usar Stephang cuando el jugador opuesto tiene 0 coronas y no hay que robar.</p>
+            <p>2. Cambiar la mecánica a un modo "desafío" para darle oportunidad al adversario de defenderse: si contesto bien la/s pregunta de Stephang, ahora mi adversario debe hacer lo mismo o perder la corona. El robo de corona se efectua solo si el adversario falla en su oportunidad de defensa.</p>
           </div>
         </section>
       </section>
 
       <section>
-        <h1>Conclusion</h1>
+        <h1>Conclusión</h1>
         <div class="smalltext">
-        <p>Todas estas mecanicas tienen un hilo conductor:<br> generan una respuesta emocional negativa no intencional.</p>
-        <p>Es importante notar que este tipo de respuestas emocionales (desmotivacion, tedio, impotencia, desconcentracion, etc) son un factor muy importante (aun siendo a nivel inconciente) en el proceso mental de los usuarios a la hora de decidir si dejar de jugar o jugar mas.</p>
-        <p>Bajo condiciones ideales, queremos reducir al minimo posible estas interacciones y desasociar por completo la experiencia de juego de los estados mentales y emocionales negativos.</p>
-        <p>Si bien es dificil y a veces hasta tecnicamente imposible volver atras y cambiar cuanto sea necesario; es importante al menos reconocer estos patrones y tenerlos presentes a la hora de encarar un nuevo proyecto.</p>
-        <p>En la misma forma en que un libro bien escrito guia al lector a traves de una experiencia emocional premeditada, nosotros tambien debemos ser responsables de entender y guiar las respuestas emocionales inconscientes de nuestros jugadores. Esto a su vez, nos ayuda a garantizar o maximizar la efectividad de cada una de nuestras decisiones y acciones: deben cumplir el proposito para el que fueron creadas inicialmente, y cualquier efecto secundario negativo no deseado debe ser (idealmente) evaluado y depurado.</p>
+        <p>Todas estas mecánicas tienen un hilo conductor:<br> generan una respuesta emocional negativa no intencional.</p>
+        <p>Es importante notar que este tipo de respuestas emocionales (desmotivación, tedio, impotencia, desconcentración, etc) son un factor muy importante (aun siendo a nivel inconsciente) en el proceso mental de los usuarios a la hora de decidir si dejar de jugar o jugar mas.</p>
+        <p>Bajo condiciones ideales, queremos reducir al mínimo posible estas interacciones y desasociar por completo la experiencia de juego de los estados mentales y emocionales negativos.</p>
+        <p>Si bien es difícil y a veces hasta técnicamente imposible volver atrás y cambiar cuanto sea necesario; es importante al menos reconocer estos patrones y tenerlos presentes a la hora de encarar un nuevo proyecto.</p>
+        <p>En la misma forma en que un libro bien escrito guiá al lector a través de una experiencia emocional premeditada, nosotros también debemos ser responsables de entender y guiar las respuestas emocionales inconscientes de nuestros jugadores. Esto a su vez, nos ayuda a garantizar o maximizar la efectividad de cada una de nuestras decisiones y acciones: deben cumplir el propósito para el que fueron creadas inicialmente, y cualquier efecto secundario negativo no deseado debe ser (idealmente) evaluado y depurado.</p>
         </div>
       </section>
 
 
       <section>
         <h1>BI - Report</h1>
-        <h5>Analizando gameplay en TCK desde el punto de vista de las mecanicas "Anti-fun".</h5>
+        <h5>Analizando gameplay en TCK desde el punto de vista de las mecánicas "Anti-fun".</h5>
         <p>Comentarios/sugerencias: santiago.boselli@etermax.com / bi@etermax.com
       </section>
 
